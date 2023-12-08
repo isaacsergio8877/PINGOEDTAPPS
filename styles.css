@@ -277,7 +277,7 @@ section {
 }
 
 @keyframes anima {
-    %{
+    0%{
         transform: scale(1);
     }
 
@@ -412,9 +412,7 @@ h2{
     margin: 25px;
     font-size: 15px;
 }
-.search-bar{
-    display: none;
-}
+
 
     }
 
