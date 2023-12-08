@@ -412,7 +412,9 @@ h2{
     margin: 25px;
     font-size: 15px;
 }
-
+.search-bar{
+    display: none;
+}
 
     }
 
