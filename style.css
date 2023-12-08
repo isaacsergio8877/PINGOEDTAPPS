@@ -42,8 +42,8 @@ nav ul {
     display: flex;
     text-align: center;
     display: flex;
-    
-    margin-left: 120px;
+   
+    margin-left: 50px;
 
     
     
@@ -55,20 +55,23 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 55px;
    
     
 }
 
 .social-icons {
     display: flex;
-    
+    position: absolute;
+    margin-left: 1200px;
 }
 
 .social-icons img{
     width: 30px;
     height: 30px;
     color: white;
+   
+    
     
     
 }
@@ -161,70 +164,13 @@ img {
 #submit:hover{
     color: black;
   background-color: #3498db;
-  filter: drop-shadow(0 0 20px #3498db) contrast(2) brightness(2); 
-  animation-name: anima;
-    animation-duration: 0.5s;
-    
-    animation-iteration-count:infinite;
-    animation-direction: alternate;
-
-}
+  filter: drop-shadow(0 0 20px #3498db) contrast(2) brightness(2); }
 
 .product p {
     
     letter-spacing: 0px;
     height: 10px;
 }
-/* Estilos para a barra de pesquisa */
-.search-bar {
-    text-align: center;
-    margin-top: 50px;
-    position: absolute;
-    margin-left: 530px;
-}
-
-.search-bar input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f5f5f5;
-    width: 250px;
-    font-size: 16px;
-    color: #333;
-}
-
-
-
- 
-.search-bar button {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: -4px;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    animation-name: anima;
-    
-    
-}
-
-.search-bar button:hover {
-    background-color: #2980b9;
-    animation-name: anima;
-    animation-duration: 0.5s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    
-}
-
-
-
-
 
 section {
     display: flex;
@@ -235,7 +181,7 @@ section {
 }
 
 .nav-links {
-    display: none;
+    display: flex;
 }
 
 .nav-links a {
@@ -275,7 +221,7 @@ section {
 }
 
 @keyframes anima {
-    %{
+    0%{
         transform: scale(1);
     }
 
@@ -285,7 +231,11 @@ section {
 }
 
 button:hover{
-    
+    animation-name: anima;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 
 }
 
