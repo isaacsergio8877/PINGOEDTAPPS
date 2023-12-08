@@ -252,6 +252,10 @@ button:hover{
 
 @media screen and (max-width: 565px) {
 
+    .social-icons img{
+        margin-top: 15px;
+    }
+
     .nav-links{
         display: none;
     }
