@@ -300,6 +300,10 @@ button:hover{
 
 @media screen and (max-width: 565px) {
 
+    .search-bar{
+        display: none;
+    }
+
     body{
         overflow-x: hidden;
     }
