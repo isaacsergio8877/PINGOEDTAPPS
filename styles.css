@@ -300,6 +300,9 @@ button:hover{
 
 @media screen and (max-width: 565px) {
 
+    body{
+        overflow-x: hidden;
+    }
     .logo img{
         width: 40px;
         height: 40px;
